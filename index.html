@@ -21,7 +21,7 @@
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
-    <div class="nav" role="navigation" id="nav" tabindex="0">
+    <nav class="nav" role="navigation" id="nav" tabindex="0">
       <div class="wrapper gutter-1-2">
         <ol class="mega list-group-inline push-0">
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
@@ -31,7 +31,7 @@
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
         </ol>
       </div>
-    </div>
+    </nav>
   </header>
 
   <main role="main" id="main" tabindex="0">
@@ -85,35 +85,38 @@
     <div class="prices pad-t pad-b">
       <div class="wrapper gutter-1-2">
         <h2 class="push-0 color-brand-dark">Prices</h2>
-        <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
-
+        <p class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</p>
         <table>
-          <tr>
-            <td>&nbsp;</td>
-            <td>Small</td>
-            <td>Medium</td>
-            <td>Large</td>
-          </tr>
-          <tr>
-            <td>Grassy shrubs</td>
-            <td>$10</td>
-            <td>$20</td>
-            <td>$30</td>
-          </tr>
-          <tr>
-            <td>Shrubs with laurels</td>
-            <td>$40</td>
-            <td>$70</td>
-            <td>$100</td>
-          </tr>
-          <tr>
-            <td>Two-level shrubbery</td>
-            <td>$50</td>
-            <td>$70</td>
-            <td>$90</td>
-          </tr>
+          <caption class="italic">Prices for small, medium, and large shrubberies.</caption>
+          <thead>
+            <tr>
+              <td>&nbsp;</td>
+              <th class="bold" scope="col">Small</th>
+              <th class="bold" scope="col">Medium</th>
+              <th class="bold" scope="col">Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="bold" scope="row">Grassy shrubs</th>
+              <td>$10</td>
+              <td>$20</td>
+              <td>$30</td>
+            </tr>
+            <tr>
+              <th class="bold" scope="row">Shrubs with laurels</th>
+              <td>$40</td>
+              <td>$70</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <th class="bold" scope="row">Two-level shrubbery</th>
+              <td>$50</td>
+              <td>$70</td>
+              <td>$90</td>
+            </tr>
+          </tbody>
         </table>
-
       </div>
     </div>
   </section>
