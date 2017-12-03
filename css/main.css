@@ -12,11 +12,10 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
-  color: #113c00;
+  color: #000;
 }
 
 .masthead {
@@ -34,6 +33,10 @@ a:hover {
 .nav a {
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:focus {
+  outline: 3px solid orange;
 }
 
 .nav a:hover {
@@ -84,15 +87,20 @@ td {
   color: #fff;
 }
 
+.img-flex {
+  padding-top: 1em;
+}
+
 @media only screen and (min-width: 35em) {
 
   .about-content {
-    bottom: 0;
+    bottom: 10em;
     position: absolute;
     width: 100%;
 
     background-color: transparent;
     background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(17, 60, 0, .8));
+
   }
 
 }
