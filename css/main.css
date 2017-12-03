@@ -18,6 +18,10 @@ a:hover {
   color: #000;
 }
 
+a:focus {
+  outline: 2px solid #568c36;
+}
+
 .masthead {
   background-color: #568c36;
 
@@ -35,13 +39,13 @@ a:hover {
   text-decoration: none;
 }
 
-.nav a:focus {
-  outline: 3px solid orange;
-}
-
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus {
+  outline: 3px solid #568c36;
 }
 
 .about {
@@ -91,10 +95,14 @@ td {
   padding-top: 1em;
 }
 
+.link {
+  color: #174e29;
+}
+
 @media only screen and (min-width: 35em) {
 
   .about-content {
-    bottom: 10em;
+    bottom: 0;
     position: absolute;
     width: 100%;
 
